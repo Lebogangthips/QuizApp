@@ -1,11 +1,14 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
-import { CatPage } from '../cat/cat';
+import { HomePage } from '../../pages/home/home';
+
+import { Level1Page } from '../level1/level1';
+
 
 
 /**
- * Generated class for the HomePage page.
+ * Generated class for the CatPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -13,25 +16,22 @@ import { CatPage } from '../cat/cat';
 
 @IonicPage()
 @Component({
-  selector: 'page-home',
-  templateUrl: 'home.html',
+  selector: 'page-cat',
+  templateUrl: 'cat.html',
 })
-export class HomePage {
-
- 
+export class CatPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad HomePage');
+    console.log('ionViewDidLoad CatPage');
   }
 
   Start(){
-
-    this.navCtrl.push(CatPage);
-
+    this.navCtrl.push(Level1Page)
   }
+
 
 
 

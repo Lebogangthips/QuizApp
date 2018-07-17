@@ -1,3 +1,29 @@
 page-home {
 
+.img{
+    background-image: url('../../assets/imgs/genius.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1{
+    color: white;
+    padding-top: 110%;
+    text-align: center;
+    font-size: 200%;
+
+}
+
+.btn{
+    background-color: rgba(255, 255, 255, 0.308);
+    border-radius: 20px;
+    margin-left: 110px;
+    width: 45%;
+   
+}
+
+
+
+
 }

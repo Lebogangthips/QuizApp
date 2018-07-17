@@ -1,0 +1,53 @@
+page-level2 {
+
+h1{
+    background-color: white;
+    color: black;
+    text-align: center;
+    height: 5%;
+    position: relative;
+    bottom: 3%;
+}
+
+.img{
+    background-image: url("../../assets/imgs/level2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon{
+
+    margin-left: 48%;
+}
+
+
+
+p{
+    color: white;
+    font-size: 150%;
+    text-align: center;
+}
+
+.item{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+
+}
+
+
+.btn{
+    border-radius: 45%;
+    border-radius: 20px;
+    border-color: white;
+    color: white;
+    margin-left: 36%;
+}
+
+h3{
+    color: white;
+}
+
+
+
+}
